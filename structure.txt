@@ -1,0 +1,23 @@
+ai-workflow-hub/
+├── server/
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── src/
+│   │   ├── index.ts
+│   │   ├── config/
+│   │   │   └── env.ts
+│   │   ├── routes/
+│   │   │   ├── llm.ts
+│   │   │   └── summarize.ts
+│   │   └── services/
+│   │       └── huggingface.ts
+│   └── .env
+└── client/
+    ├── index.html
+    ├── package.json
+    ├── tsconfig.json
+    ├── vite.config.ts
+    └── src/
+        ├── main.tsx
+        ├── App.tsx
+        └── api.ts
